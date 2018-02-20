@@ -1,0 +1,161 @@
+/* General Styles _______________________ */
+
+*{
+    /* border: 1px solid red; */
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #BEBCAD;
+    position: relative;
+}
+
+h1 {
+    padding-left: 15px;
+    line-height: 30px;
+    background: repeating-linear-gradient(
+        -45deg,
+        rgba(0,0,0,0),
+        rgba(0,0,0,0) 2px,
+        rgba(0,0,0,0.1) 2px,
+        rgba(0,0,0,0.1) 4px );
+}
+
+ul{
+    list-style: none;
+}
+
+li {
+    border-bottom: 1px dotted black;
+    margin: 10px 0 0 8px;
+}
+
+h3 {
+    margin-left: 30px;
+    color: #574D33;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.left-article p {
+    margin: 10px 45px 15px 40px;
+    text-align: justify;
+    color: #786A47;
+}
+
+footer {
+    background-color: #679DC0;
+    line-height: 34px;
+    text-align: center;
+}
+
+
+
+/* Grid Styles ________________________ */
+
+.main-container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.column-container {
+    display: table;
+}
+
+.left-column {
+    width: 70%;
+    background-color: #E9E9E7;
+}
+
+.right-column {
+    width: 30%;
+    background-color: #998A67;
+}
+
+.column {
+    display: table-cell;
+}
+/* Sidebar __________________________ */
+
+.right-column li a {
+    font-weight: bold;
+    color: #E5D9BC;
+    list-style-position: inside;
+    list-style-type: disc;
+    display: list-item;
+}
+
+.right-column li a:hover {
+    color: blue;
+}
+
+.right-column li a.designer-name{
+    font-weight: normal;
+    color: #595339;
+    display: inline;
+}
+
+.right-column li a.designer-name:hover{
+    color: blue;
+}
+
+/* Images ______________________ */
+
+img {
+    width: 100%;
+    display: inherit;
+}
+
+/* Custom Styles ________________ */
+
+.title {
+    font-size: 25px;
+    color: #D8D6C7;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    position: absolute;
+    left: 20px;
+    top: 260px;
+}
+
+.whole-div-shadow {
+    box-shadow: 0 0 10px #999;
+}
+
+.float-left{
+    text-align: left;
+    padding: 30px 0 10px 30px;
+    font-weight: bold;
+}
+
+.float-right{
+    text-align: right;
+    padding: 0 30px 0px 0px;
+    font-weight: bold;
+}
+
+.summary-link {
+    text-align: right;
+    padding: 20px 20px 5px 0;
+}
+
+#authors p {
+    text-align: center;
+    padding: 50px 55px 65px 55px;
+    margin-bottom: 0;
+}
+
+#authors {
+    background-image: url("https://raw.githubusercontent.com/nss-evening-cohort-7/css-lecture/master/grass.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-claw {
+    position: absolute;
+    bottom: 0;
+    max-width: 30%;
+}
+
